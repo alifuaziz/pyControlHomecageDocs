@@ -1,0 +1,42 @@
+site_name: pyControlHomcage
+site_url: https://pycontrolhomcage.readthedocs.io/
+site_description: Open source, Python based, automated homecage training
+site_author: Alif Aziz
+
+theme:
+    name: readthedocs
+    logo: logo.png
+
+markdown_extensions:
+    - admonition
+    - toc:
+        permalink: True
+
+repo_url: https://github.com/pyControlHomecageDocs
+
+nav:
+- Home: index.md
+- User Guide:
+    - Graphical user interface (GUI): user-guide/graphical-user-interface.md
+    - Communcation: user-guide/communication.md
+    - Setups: user-guide/setups.md
+    - Protocals and Tasks: user-guide/protocols.md
+    - GUI Tables: user-guide/tables.md
+    - Installation: user-guide/installation.md
+    - Troubleshooting: user-guide/troubleshooting.md
+    - Frequently Asked Questions: user-guide/faqs.md
+
+- Hardware:
+    - Introduction: hardware/introduction
+    - Setup: hardware/access-control-hardware.md
+    - Integration Testing: hardware/integration-testing.md
+
+- About:
+    - Release Notes: about/release-notes.md
+    - License: about/license.md
+
+- Quick Links:
+    - Help and Discussions: https://github.com/orgs/pyMultiVideo/discussions
+    - GitHub repositories: https://github.com/pyMultiVideo
+
+copyright: # Copyright &copy; 2018-2024 <a href="/release-notes/">Thomas Akam</a>.
